@@ -21,11 +21,11 @@ export default function Navbar(){
         },
     ];
    const[isOpen,setIsOpen] = useState(false); 
-    return( <div>
+    return( <div className="w-full">
                 <motion.div
 whileHover={{backgroundColor:"black"}}
         className="w-full p-6 justify-between items-center sticky flex top-0 left-0">
-            <div className="flex gap-2  lg:ml-16 ml-0 lg:mt-0 -mt-96">
+            <div className="block  lg:ml-16 ml-0 lg:mt-0 -mt-96">
                 <h1 className="lg:text-3xl text-2xl text-nowrap  font-bold">FATIMA - <span className="text-blue-500">REZAIE</span></h1>
             </div>
             <div className="p-2 rounded-full space-x-5 lg:block hidden">
@@ -45,9 +45,9 @@ whileHover={{backgroundColor:"black"}}
        ))}
         
         </div>)}
-             <div className="lg:hidden block ml-64 hover:cursor-pointer">
+             <div className="lg:hidden block lg:ml-64 ml-0 hover:cursor-pointer">
           <Menu className={`${!isOpen ? "block":"hidden"} `} onClick={()=>setIsOpen(!isOpen)} size={24}/>
-          <X className={`${isOpen ? "block":"hidden"} -mt-52    `} onClick={()=>setIsOpen(!isOpen)} size={24}/>
+          <X className={`${isOpen ? "block":"hidden"} -mt-52 ml-0    `} onClick={()=>setIsOpen(!isOpen)} size={24}/>
         </div>
       
         </motion.div>  

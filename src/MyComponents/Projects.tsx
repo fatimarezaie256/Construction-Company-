@@ -1,4 +1,4 @@
-import { ArrowBigRight, Eye, Plus } from "lucide-react";
+import { ArrowBigRight, Eye, Lock, Plus } from "lucide-react";
 export default function Projects(){
     const AllProjects = [
         {
@@ -6,7 +6,19 @@ export default function Projects(){
             aboutp:"Website Design",
             webdesign:"website design, App design",
             icon: "→", 
-        }
+        },
+         {
+            imgUrl:"./images/fasilah.png",
+            aboutp:"Website Design",
+            webdesign:"website design, App design",
+            icon: "→", 
+        },
+         {
+            imgUrl:"./images/project.png",
+            aboutp:"Website Design",
+            webdesign:"website design, App design",
+            icon: "→", 
+        },
     ]
     return(
         <div className="h-screen w-full bg-[#011e41] " id="Projects">
@@ -16,33 +28,28 @@ export default function Projects(){
               <div className="grid lg:grid-cols-3 grid-cols-1 pl-24">
                 {AllProjects.map((project,index)=>(
               <div key={index} className="bg-white rounded-md h-[350px] w-[90%]">
-    <div className="relative w-64 h-40 group">
-      {/* Image */}
-      <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
-        alt="Nature"
-        className="w-full h-full object-cover rounded-lg"
-      />
-
-      {/* Icon overlay (shows on hover) */}
+    <div className="relative w-full h-[70%] group">
+      <img src={project.imgUrl}  className="w-full h-full object-cover rounded-2xl p-2" />
      
      <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
-  <button
-    className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition"
-  >
-    
- <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
-        <Plus className="w-10 h-10 text-white" />
+  <button className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition">
+    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
+        <a href="./images/login.png"><Plus
+        className="w-10 h-10 text-white"/></a>
       </div>
   </button>
 </div>
     </div>
-    
-
- 
-                 <h1 className="text-black text-2xl font-bold p-3">{project.aboutp}</h1>
-                 <div className="flex justify-between pl-2"><p className="text-gray-500 inline-flex">{project.webdesign}</p>    
-                 <span className="text-white bg-blue-500 -mt-6 mr-3.5  rounded-full text-3xl px-3 py-1 border-[1px] border-black ">{project.icon}</span>   </div>        
+                 <div className="grid grid-cols-2">
+                  <div>
+                    <h1 className="text-black text-2xl font-bold text-nowrap p-3">{project.aboutp}</h1>
+                 <p className="text-gray-500 inline-flex text-nowrap pl-2.5">{project.webdesign}</p>
+                  </div>
+                  <div className="my-auto">
+                    <a href="./images/login.png"><span className="text-white m-8 bg-blue-500 float-end  rounded-full text-4xl px-3 py-1 border-[1px] border-black hover:cursor-pointer hover:bg-black">{project.icon}</span> </a>
+                  </div>
+                  </div>
+                          
               </div>
                 ))}
               </div>
