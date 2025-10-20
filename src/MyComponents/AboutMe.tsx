@@ -22,7 +22,7 @@ export default function AboutMe(){
                         <p className="text-[14px]">Google Review</p>
                     </div>
                        <div className="text-white border-[1px] border-gray-600 rounded-md bg-[#032349] p-3 text-center ">
-                        <h1 className="text-3xl font-bold">1+</h1>
+                        <h1 className="text-3xl font-bold">3+</h1>
                         <p className="text-[14px]">Years of Experience</p>
                     </div>
                        <div className="text-white border-[1px] border-gray-600 rounded-md bg-[#032349] p-3 text-center ">

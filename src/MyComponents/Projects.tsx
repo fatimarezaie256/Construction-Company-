@@ -1,4 +1,5 @@
 import { ArrowBigRight, Eye, Lock, Plus } from "lucide-react";
+import Services from "./Services";
 export default function Projects(){
     const AllProjects = [
         {
@@ -21,6 +22,7 @@ export default function Projects(){
         },
     ]
     return(
+      <div>
         <div className="h-screen w-full bg-[#011e41] " id="Projects">
               <div className="p-22"><span className="px-4 py-1  text-white bg-[#063167] uppercase rounded-[5px] text-[20px]">my work</span>
               <h1 className="text-white  text-4xl uppercase pt-5 font-bold">recent projects</h1>
@@ -53,6 +55,8 @@ export default function Projects(){
               </div>
                 ))}
               </div>
+        </div>
+        <Services/>
         </div>
     )
 }

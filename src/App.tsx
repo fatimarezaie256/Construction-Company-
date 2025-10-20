@@ -6,12 +6,13 @@ import Contact from "./MyComponents/Contact"
 import Projects from "./MyComponents/Projects"
 import NotFound from "./MyComponents/NotFound"
 import Navbar from "./MyComponents/Navbar"
+import BackgroundSVG from "./MyComponents/BackgroundSvg"
 function App() {
    return (
      <div className="bg-[#011e41] h-screen relative text-white w-full"> 
     <Navbar/>
 <div className=" w-full ">
-  
+   
       <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Home/>}/>       
