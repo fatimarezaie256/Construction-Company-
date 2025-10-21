@@ -1,6 +1,11 @@
 import { Code, Code2, Code2Icon, CodesandboxIcon, CodeSquareIcon, CodeXml, Star, StarHalf, Stars } from "lucide-react";
 
 export default function Services(){
+  const images =[
+    {
+      imgUrl:"",
+    }
+  ]
     return(
 
         <div id="Services" className="h-[150vh] w-full bg-[#011e41]">
@@ -8,7 +13,7 @@ export default function Services(){
               <h1 className="text-white  text-4xl uppercase pt-5 font-bold">Development <span className="text-blue-600">Services</span> I am providing</h1>
               </div>
               <div className="grid grid-cols-4">
-                <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center" id="background">
+                <div className="h-[450px] w-[85%] rounded-md bg-cover bg-left bg-[url('../images/another1.jpg')]">
                 <CodeSquareIcon className="bg-blue-800 opacity-100 h-10 w-10 rounded-md p-2 mt-36 ml-3"/>
                 <h1 className="font-bold text-nowrap ml-3 mt-2 text-2xl">Website Development</h1>
                 <p className="text-white ml-3 mt-2 border-b">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur minus veritatis perspiciatis repellat quas harum velit dolorum eius alias! Eligendi voluptatibus quaerat ex est. Cumque recusandae labore officiis iure nobis!</p>
@@ -19,7 +24,7 @@ export default function Services(){
                   <Star className="text-yellow-500"/>
                 </div>
                 </div>
-                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center" id="first">
+                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-right bg-[url('../images/another2.jpg')]">
                 <CodeSquareIcon className="bg-blue-800 opacity-100 h-10 w-10 rounded-md p-2 mt-36 ml-3"/>
                 <h1 className="font-bold text-nowrap ml-3 mt-2 text-2xl">Website Development</h1>
                 <p className="text-white ml-3 mt-2 border-b">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur minus veritatis perspiciatis repellat quas harum velit dolorum eius alias! Eligendi voluptatibus quaerat ex est. Cumque recusandae labore officiis iure nobis!</p>
@@ -30,7 +35,7 @@ export default function Services(){
                   <Star className="text-yellow-500"/>
                 </div>
                 </div>
-                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center" id="second">
+                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center bg-[url('../images/another5.jpg')]">
                 <CodeSquareIcon className="bg-blue-800 opacity-100 h-10 w-10 rounded-md p-2 mt-36 ml-3"/>
                 <h1 className="font-bold text-nowrap ml-3 mt-2 text-2xl">Website Development</h1>
                 <p className="text-white ml-3 mt-2 border-b">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur minus veritatis perspiciatis repellat quas harum velit dolorum eius alias! Eligendi voluptatibus quaerat ex est. Cumque recusandae labore officiis iure nobis!</p>
@@ -41,7 +46,7 @@ export default function Services(){
                   <Star className="text-yellow-500"/>
                 </div>
                 </div>
-                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center" id="third">
+                  <div className="h-[450px] w-[85%] rounded-md bg-cover bg-center bg-[url('../images/image4.jpg')]">
                 <CodeSquareIcon className="bg-blue-800 opacity-100 h-10 w-10 rounded-md p-2 mt-36 ml-3"/>
                 <h1 className="font-bold text-nowrap ml-3 mt-2 text-2xl">Website Development</h1>
                 <p className="text-white ml-3 mt-2 border-b">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur minus veritatis perspiciatis repellat quas harum velit dolorum eius alias! Eligendi voluptatibus quaerat ex est. Cumque recusandae labore officiis iure nobis!</p>

@@ -5,7 +5,7 @@ export default function AboutMe(){
     return(
         <div>
         <div  className="h-screen w-full bg-[#011e41] grid grid-cols-2" id="about">
-            <div className="h-10/12 w-2/3 ">
+            <div className="lg:h-10/12 h-[30%] w-[50%] lg:w-2/3 ">
                 <img src="./images/about-banner.png" className="h-full w-full ml-52 mt-10" alt="" />
             </div>
              <div className="m-16">
@@ -36,7 +36,7 @@ export default function AboutMe(){
              </div>
              </div>
            </div>
-           <Projects/>
+           {/* <Projects/> */}
         </div>
     )
 }
