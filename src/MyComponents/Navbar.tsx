@@ -39,7 +39,7 @@ whileHover={{backgroundColor:"black"}}
                 <button className="px-8 hover:cursor-pointer hover:bg-black hover:border-[1px] hover:border-white py-3 font-bold rounded-3xl bg-blue-500 text-white uppercase"><a href="">Contact me</a></button>
             </div>
                  { isOpen &&(
-        <div className=" lg:h-screen h-[43vh] flex lg:mt-0 -mt-8 lg:ml-32 -ml-36 items-center justify-center gap-5 w-full flex-col lg:hidden">
+        <div className=" lg:h-screen h-[45vh] flex lg:mt-0 -mt-8 lg:ml-32 -ml-36 items-center justify-center gap-5 w-full flex-col lg:hidden">
        {navList.map((item,index)=>(
         <a key={index} href={item.href} className="hover:font-bold hover:transition-colors duration-700">{item.title}</a>
        ))}

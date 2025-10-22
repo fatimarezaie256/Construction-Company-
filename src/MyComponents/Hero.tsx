@@ -2,6 +2,7 @@ import {  LucideFacebook, LucideLinkedin } from "lucide-react";
 import {motion} from "framer-motion"
 import AboutMe from "./AboutMe";
 export default function Hero(){
+      
     return(
         <div>
         <div className="h-screen w-full overflow-hidden bg-[#011e41] lg:grid grid-cols-2 ">
@@ -12,7 +13,10 @@ export default function Hero(){
             className="py-20 ml-12 ">
                 <span className="p-2 text-white bg-[#063167] uppercase rounded-[5px] ">f a t i m a - r e z a i e</span>
                 <h1 className="lg:text-6xl text-3xl font-bold text-white uppercase mt-6 text-nowrap">hey ! I'm fatima,</h1>
-                <h1 className="lg:text-6xl text-3xl font-bold text-blue-500 uppercase text-nowrap">I'm a developer</h1>
+                <h1   className="text-3xl lg:text-6xl font-bold text-white uppercase mt-4 flex gap-3">
+                    I am a developer
+
+                </h1>
                 <p className="text-white mt-8">Enthusiastic Front-End Developer with a
 strong foundation in HTML, CSS, and
 JavaScript. Passionate about creating
@@ -40,7 +44,7 @@ applications.
             initial={{x:"40%"}}
             whileInView={{x:0}}
             transition={{duration:2}}
-            className="overflow-hidden lg:h-full lg:w-full "
+            className="overflow-hidden lg:h-[85%] lg:w-[80%] md:h-[70%] w-[70%] md:mx-auto "
             >
                 <img src="./images/home-banner.png" alt="" />
             </motion.div>
