@@ -31,7 +31,7 @@ export default function Projects(){
                 {AllProjects.map((project,index)=>(
               <div key={index} className="bg-white rounded-md h-[350px] w-[90%]">
     <div className="relative w-full h-[70%] group">
-      <img src={project.imgUrl}  className="w-full h-full object-cover rounded-2xl p-2" />
+      <img src={project.imgUrl}  className="w-full h-full z-10 object-cover rounded-2xl p-2" />
      
      <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
   <button className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition">
@@ -56,7 +56,7 @@ export default function Projects(){
                 ))}
               </div>
         </div>
-        <Services/>
+         <Services/>
         </div>
     )
 }

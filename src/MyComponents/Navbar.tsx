@@ -21,9 +21,9 @@ export default function Navbar(){
         },
     ];
    const[isOpen,setIsOpen] = useState(false); 
-    return( <div className="w-full">
+    return( <div className="w-full z-[200] ">
                 <motion.div
-whileHover={{backgroundColor:"black"}}
+whileInView={{backgroundColor:"black"}}
         className="w-full p-6 justify-between items-center sticky flex top-0 left-0">
             <div className="  lg:ml-16 ml-0 lg:mt-0 -mt-96">
                 <h1 className="block lg:text-3xl text-2xl text-nowrap  font-bold">FATIMA - <span className="text-blue-500">REZAIE</span></h1>
