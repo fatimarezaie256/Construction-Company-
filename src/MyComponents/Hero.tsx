@@ -13,7 +13,7 @@ export default function Hero(){
             className="py-20 ml-12 ">
                 <span className="p-2 text-white bg-[#063167] uppercase rounded-[5px] ">f a t i m a - r e z a i e</span>
                 <h1 className="lg:text-6xl text-3xl font-bold text-white uppercase mt-6 text-nowrap">hey ! I'm fatima,</h1>
-                <h1   className="text-3xl lg:text-6xl font-bold text-white uppercase mt-4 flex gap-3">
+                <h1   className="text-3xl lg:text-6xl font-bold text-blue-500 uppercase mt-4 flex gap-3">
                     I am a developer
 
                 </h1>

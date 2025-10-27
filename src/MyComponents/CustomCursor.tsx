@@ -18,13 +18,12 @@ export default function CustomCursor(){
         }}
         style={{
             position:"relative",
-            width:"98vw",
-            height:"96vh",
+            width:"98.9vw",
+            height:"fit-content",
         }}
         >
             <div
             style={{
-                
                 position:"absolute",
                 backgroundColor:"white",
                 borderRadius:"50%",

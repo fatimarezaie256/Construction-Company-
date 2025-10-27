@@ -1,16 +1,18 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
-import Home from "./MyComponents/Home"
-import Services from "./MyComponents/Services"
-import AboutMe from "./MyComponents/AboutMe"
-import Contact from "./MyComponents/Contact"
-import Projects from "./MyComponents/Projects"
-import NotFound from "./MyComponents/NotFound"
-import Navbar from "./MyComponents/Navbar"
-import BackgroundSVG from "./MyComponents/BackgroundSvg"
+import Home from "./Home"
+import Services from "./Services"
+import AboutMe from "./AboutMe"
+import Contact from "./Contact"
+import Projects from "./Projects"
+import NotFound from "./NotFound"
+import Navbar from "./Navbar"
+import BackgroundSVG from "./BackgroundSvg"
 function App() {
    return (
      <div className="bg-[#011e41] h-screen relative text-white w-full"> 
+
     <Navbar/>
+
 <div className=" w-full ">
    
       <BrowserRouter>
@@ -27,4 +29,4 @@ function App() {
    </div>
   )
 }
-export default App
+export default App;

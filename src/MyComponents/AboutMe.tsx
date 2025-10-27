@@ -1,4 +1,4 @@
-import CustomCursor from "@/CustomCursor";
+import CustomCursor from "@/MyComponents/CustomCursor";
 import Projects from "./Projects";
 
 export default function AboutMe(){
