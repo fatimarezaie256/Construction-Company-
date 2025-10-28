@@ -40,6 +40,10 @@ export default function Contact(){
             <label className="block">YOUR EMAIL</label>
             < input className="border-[1px] focus:outline-0  border-[#466387] w-64 p-2 rounded-md bg-[#193356] " type="text" placeholder="Your email *"/>
          </div>
+            <div  className="">
+            <label className="block">YOUR EMAIL</label>
+            < input className="border-[1px] focus:outline-0  border-[#466387] w-64 p-2 rounded-md bg-[#193356] " type="text" placeholder="Your email *"/>
+         </div>
         </div>
 
       </div>
