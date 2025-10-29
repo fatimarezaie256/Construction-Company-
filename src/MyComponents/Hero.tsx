@@ -29,7 +29,7 @@ my skills and contribute to real-world
 applications.
 </p>
                 <div className="flex gap-6 mt-5">
-                    <button className="px-8 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-500 hover:border-[1px] hover:bg-black transition-all duration-700 text-white hover:border-white uppercase">get in touch →</button>
+                    <button className="px-8 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-500 hover:bg-black border-[1px] border-blue-300 transition-all duration-700 text-white hover:border-white uppercase">get in touch →</button>
            <div className="flex items-center justify-center bg-blue-500 h-12 w-12 rounded-full border border-white hover:cursor-pointer">
   <LucideFacebook className="h-6 w-6 text-white" />
 </div>

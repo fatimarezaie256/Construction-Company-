@@ -31,7 +31,7 @@ export default function AboutMe(){
                     </div>
                  </div>
                  <div className="flex gap-36">
-                   <button className="px-8 mt-5 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-500 hover:bg-black hover:border[1px] hover:border-white text-white uppercase">get in touch →</button>
+                   <button className="px-8 mt-5 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-700 hover:bg-black border[1px] border-blue-300   text-white uppercase">get in touch →</button>
             
              </div>
              </div>

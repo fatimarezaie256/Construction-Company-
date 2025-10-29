@@ -36,7 +36,7 @@ whileInView={{backgroundColor:"black"}}
                 <a className="text-base after:contenet-[''] after:w-full after:transition-all after:duration-700 after:h-px after:bg-white uppercase p-1 font-bold relative after:absolute after:left-0 after:-bottom-0 after:hidden hover:after:block" href="#Contact">contact</a>
             </div>
             <div className="lg:block hidden">
-                <button className="px-8 hover:cursor-pointer hover:bg-black hover:border-[1px] hover:border-white py-3 font-bold rounded-3xl bg-blue-500 text-white uppercase"><a href="">Contact me</a></button>
+                <button className="px-8 hover:cursor-pointer hover:bg-black transition-colors duration-500 py-3 font-bold rounded-3xl border-[1px] border-blue-300 bg-blue-500 text-white uppercase"><a href="">Contact me</a></button>
             </div>
                  { isOpen &&(
         <div className=" lg:h-screen h-[45vh] flex lg:mt-0 -mt-8 lg:ml-32 -ml-36 items-center justify-center gap-5 w-full flex-col lg:hidden">
