@@ -45,14 +45,14 @@ export default function Contact(){
         </div>
                  <div className=" -ml-64 pt-5">
             <label className="block ">YOUR SUBJECT</label>
-            < input className="border  w-[94%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" type="text" placeholder="Subject *"/>
+            < input className="border  w-[90%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" type="text" placeholder="Subject *"/>
          </div>
               <div className=" -ml-64 pt-5">
             <label className="block ">YOUR MESSEGE</label>
-            <textarea className="border h-32 w-[94%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" >YOUR MESSEGE *</textarea>
+            <textarea className="border h-32 w-[90%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" >YOUR MESSEGE *</textarea>
          </div>
                <div className="-ml-64 pt-5  ">
-       < input className="w-[94%]  focus:outline-0 px-2 py-3 bg-blue-600 rounded-full placeholder:font-bold placeholder:text-white placeholder:text-center hover:cursor-pointer hover:bg-black transation-all duration-700 border-[1px] border-blue-300" type="text" placeholder="SEND MESSEGE "/>
+       < input className="w-[90%]  focus:outline-0 px-2 py-3 bg-blue-600 rounded-full placeholder:font-bold placeholder:text-white placeholder:text-center hover:cursor-pointer hover:bg-black transation-all duration-700 border-[1px] border-blue-300" type="text" placeholder="SEND MESSEGE "/>
       </div>
 
               
