@@ -6,7 +6,7 @@ export default function AboutMe(){
         <div>
         <div  className="lg:h-screen h-[150vh] w-full bg-[#011e41] grid lg:grid-cols-2 grid-cols-1" id="about">
             <div className="lg:h-10/12 h-[90%] w-[85%] md:mx-auto md:mt-10 lg:w-2/3 ">
-                <img src="./images/about-banner.png" className="h-full w-full" alt="" />
+                <img src="./images/banner.png" className="h-full w-full" alt="" />
             </div>
              <div className="m-16">
                 <span className="p-2  text-white bg-[#063167] uppercase rounded-[5px]">a b o u t - u s</span>
@@ -31,7 +31,7 @@ export default function AboutMe(){
                     </div>
                  </div>
                  <div className="flex gap-36">
-                   <button className="px-8 mt-5 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-700 hover:bg-black border[1px] border-blue-300   text-white uppercase">get in touch →</button>
+                   <button className="px-8 mt-5 hover:cursor-pointer py-3 font-bold rounded-3xl bg-blue-700 hover:bg-black border   text-white uppercase">get in touch →</button>
             
              </div>
              </div>
