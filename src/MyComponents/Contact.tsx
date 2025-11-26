@@ -32,14 +32,14 @@ export default function Contact(){
            </div>
         </div>
         <div className="">
-         <div className="flex gap-10  pt-12">
+         <div className="flex gap-52  pt-12">
          <div className="-ml-64">
             <label className="block ">YOUR NAME</label>
-            < input className="border w-[140%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" type="text" placeholder="Name *"/>
+            < input className="border w-[182%]  focus:outline-0 p-2 rounded-md bg-[#193356] border-[#466387]" type="text" placeholder="Name *"/>
          </div>
          <div  className="">
             <label className="block">YOUR EMAIL</label>
-            < input className="border-[1px] focus:outline-0  border-[#466387] w-[140%] p-2 rounded-md bg-[#193356] " type="text" placeholder="Your email *"/>
+            < input className="border-[1px] focus:outline-0  border-[#466387] w-[182%] p-2 rounded-md bg-[#193356] " type="text" placeholder="Your email *"/>
          </div>
       
         </div>

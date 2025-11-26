@@ -8,6 +8,7 @@ export default function AboutMe(){
             <div className="lg:h-10/12 h-[90%] w-[85%] md:mx-auto md:mt-10 lg:w-2/3 ">
                 <img src="./images/banner.png" className="h-full w-full" alt="" />
             </div>
+        
              <div className="m-16">
                 <span className="p-2  text-white bg-[#063167] uppercase rounded-[5px]">a b o u t - u s</span>
                 <h1 className="uppercase mt-5 text-4xl font-bold">i am avilable for</h1>
