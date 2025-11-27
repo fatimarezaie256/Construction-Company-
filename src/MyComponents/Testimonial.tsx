@@ -4,7 +4,7 @@ import Contact from './Contact'
 function Testimonial() {
   return (
     <div>
-    <div className='h-[115vh] w-full bg-[#011228]'>
+    <div className='h-[115vh] mt-52 w-full bg-[#011228]'>
         <div className="text-center p-10 pt-20"><span className="px-4 py-1  text-white bg-[#063167] uppercase rounded-[5px] text-[20px]">testimonial</span>
         <h1 className='font-bold text-5xl pt-6 uppercase'>over <span className='text-blue-600'>8,000+</span><span className='block p-2'>people trust me</span></h1>
         </div>

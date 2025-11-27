@@ -9,7 +9,7 @@ export default function Projects(){
             icon: "→", 
         },
          {
-            imgUrl:"./images/fasilah.png",
+            imgUrl:"./images/second_project.png",
             aboutp:"Website Design",
             webdesign:"website design, App design",
             icon: "→", 
@@ -29,18 +29,25 @@ export default function Projects(){
               </div>
               <div className="grid lg:grid-cols-3 grid-cols-1 pl-24">
                 {AllProjects.map((project,index)=>(
-              <div key={index} className="bg-white rounded-md h-[350px] w-[90%]">
+              <div key={index} className="bg-white rounded-2xl  h-[350px] w-[90%]">
     <div className="relative w-full h-[70%] group">
-      <img src={project.imgUrl}  className="w-full h-full z-10 object-cover rounded-2xl p-2" />
+      <img src={project.imgUrl}  className="w-full h-full object-cover rounded-b-none rounded-2xl" />
      
-     <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
+     <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg rounded-b-none">
   <button className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition">
-    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg">
+    <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg rounded-b-none">
         <a href="./images/login.png"><Plus
-        className="w-10 h-10 text-white"/></a>
+    className="w-10 h-10 text-white bg-gray-500 rounded-full"/></a>
       </div>
   </button>
-</div>
+    </div>
+  <button className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition">
+    <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-lg rounded-b-none">
+        <a href="./images/second_project.png"><Plus
+        className="w-10 h-10 text-white"/></a>
+        
+      </div>
+  </button>
     </div>
                  <div className="grid grid-cols-2">
                   <div>
