@@ -4,7 +4,7 @@ import Testimonial from "./Testimonial";
 
 const items:{image:string,icon:React.ReactNode,service:string,details:string,iconStar:React.ReactNode}[] = [
   {
-    image:"./images/com.jpg",
+    image:"./images/front.jpg",
     icon:<CodeSquareIcon/>,
     service:"Frontend Developer",
     details:"sicing elit. Mollitia, libero? Distinctio voluptates praesentium magni dolore deleniti! Quaerat at, soluta quam, excepturi consequuntur a aliquam ",
@@ -18,7 +18,7 @@ const items:{image:string,icon:React.ReactNode,service:string,details:string,ico
    iconStar:<StarIcon/>,    
   },
   {
-    image:"./images/comp.jpg",
+    image:"./images/developer.jpg",
     icon:<CodeSquareIcon/>,
     service:"Frontend Developer",
     details:"sicing elit. Mollitia, libero? Distinctio voluptates praesentium magni dolore deleniti! Quaerat at, soluta quam, excepturi consequuntur a aliquam ",
