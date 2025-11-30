@@ -13,21 +13,21 @@ const items:{image:string,icon:React.ReactNode,service:string,details:string,ico
   {
     image:"./images/another5.jpg",
     icon:<CodeSquareIcon/>,
-    service:"Frontend Developer",
+    service:"Backend Developer",
     details:"sicing elit. Mollitia, libero? Distinctio voluptates praesentium magni dolore deleniti! Quaerat at, soluta quam, excepturi consequuntur a aliquam",
    iconStar:<StarIcon/>,    
   },
   {
     image:"./images/developer.jpg",
     icon:<CodeSquareIcon/>,
-    service:"Frontend Developer",
+    service:"Ui/Ux Designer",
     details:"sicing elit. Mollitia, libero? Distinctio voluptates praesentium magni dolore deleniti! Quaerat at, soluta quam, excepturi consequuntur a aliquam ",
    iconStar:<StarIcon/>,    
   },
   {
     image:"./images/computer.jpg",
     icon:<CodeSquareIcon/>,
-    service:"Frontend Developer",
+    service:"HTML  Developer",
     details:"sicing elit. Mollitia, libero? Distinctio voluptates praesentium magni dolore deleniti! Quaerat at, soluta quam, excepturi consequuntur a aliquam ",
    iconStar:<StarIcon/>,    
   },
@@ -39,11 +39,11 @@ export default function Services(){
               <div className="p-22"><span className="px-4 py-1  text-white bg-[#063167] uppercase rounded-[5px] text-[20px]">services</span>
               <h1 className="text-white text-4xl uppercase pt-5 font-bold">Development <span className="text-blue-600">Services</span> I am providing</h1>
               </div>
-               <div className="flex gap-8">
+               <div className="flex  justify-center items-center">
                {items.map((item,index)=>(
                  <div className="" key={index}><div className="h-[110%] bg-center bg-cover rounded-md w-[80%] pt-34 " style={{ backgroundImage: `url(${item.image})` }}>
                   <div className="bg-blue-600  text-white  h-8 w-10 px-2 py-1  rounded-sm">{item.icon}</div>
-                  <h1 className="">{item.service}</h1>
+                  <h1 className="font-bold text-xl">{item.service}</h1>
                   <p className="border-b ">{item.details}</p>
                 <div>
                 
@@ -54,5 +54,5 @@ export default function Services(){
                </div>
               <Testimonial/>
         </div>
-    )
+    ) 
 }
