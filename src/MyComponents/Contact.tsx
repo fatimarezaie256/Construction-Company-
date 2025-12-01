@@ -2,7 +2,7 @@ import { Facebook, Linkedin, LucideFacebook, LucideLinkedin, LucideWholeWord, Ne
 
 export default function Contact(){
     return(
-      <div className="h-[104vh] w-full bg-[#011e41]" id="Contact">
+      <div className="h-[104vh] -mt-22 w-full bg-[#011e41]" id="Contact">
           <div className="h-[99vh] shadow-2xl mt-20 w-[90%] mx-auto rounded-md border-[1px] border-[#042b5bf6]  bg-[#032753]">
             
       <div className="h-40 border-b-[1px] border-b-[#0b2e58f6] pt-8 w-full rounded-tl-md rounded-tr-md bg-[#021a38]">
