@@ -1,5 +1,6 @@
 import { useState } from "react";
-import App from "./App";
+import App from "./MyComponents/App";
+
 
 
 export default function CustomCursor(){
@@ -36,8 +37,8 @@ export default function CustomCursor(){
             }}
             >
             </div>
-            <App/>
-        
+           
+        <App/>
         </div>
     );
 }
