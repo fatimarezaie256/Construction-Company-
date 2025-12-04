@@ -14,7 +14,7 @@ export default function AboutMe(){
             </motion.div>
         
              <motion.div
-              initial={{x:"50%"}}
+              initial={{x:"40%"}}
             whileInView={{x:0}}
             transition={{duration:2}}
              className="m-10 ">

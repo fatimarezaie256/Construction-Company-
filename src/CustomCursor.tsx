@@ -37,8 +37,8 @@ export default function CustomCursor(){
             }}
             >
             </div>
-           
-        <App/>
+          
+        
         </div>
     );
 }
